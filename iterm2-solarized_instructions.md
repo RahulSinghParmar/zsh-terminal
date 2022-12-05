@@ -62,8 +62,8 @@ If you want to trigger the configuration wizard immediately, simply run `p10k co
 
 If you did not go with Powerlevel10k or you want another font, read on:
 
-- [Source Code Pro](https://github.com/powerline/fonts/blob/master/SourceCodePro/Source%20Code%20Pro%20for%20Powerline.otf)
-- [Source Code Pro + Font Awesome](https://github.com/Falkor/dotfiles/blob/master/fonts/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf), this one is needed if you want the icons from Font Awesome as shown in the screenshot for Powerlevel10k.
+- [Source Code Pro](https://github.com/RahulSinghParmar/zsh-terminal/blob/main/asset/fonts/Source%20Code%20Pro%20for%20Powerline.otf)
+- [Source Code Pro + Font Awesome](https://github.com/RahulSinghParmar/zsh-terminal/blob/main/asset/fonts/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf), this one is needed if you want the icons from Font Awesome as shown in the screenshot for Powerlevel10k.
 - [Others @ powerline fonts](https://github.com/powerline/fonts)
 
 Open the downloaded font and press "Install Font".
