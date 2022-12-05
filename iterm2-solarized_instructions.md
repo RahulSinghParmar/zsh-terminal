@@ -16,9 +16,21 @@ Get the iTerm color settings
 
 Just save it somewhere and open the file(s). The color settings will be imported into iTerm2. Apply them in iTerm through iTerm → preferences → profiles → colors → load presets. You can create a different profile other than `Default` if you wish to do so.
 
+# Git
+
 ## Install git
 
     brew install git
+
+## make global git userName & userEmail
+
+    git config --global user.email "yourEmail@email.com"
+    git config --global user.name "yourName"
+
+## Install Xcode Tools:  
+
+    xcode-select —install
+
 
 # Oh My Zsh
 
