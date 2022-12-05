@@ -10,8 +10,8 @@ iTerm2 has better color fidelity than the built in Terminal, so your themes will
 
 Get the iTerm color settings
 
-- [Solarized Dark theme](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors) (patched version to fix the bright black value)
-- [Solarized Light theme](https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Light.itermcolors)
+- [Solarized Dark theme](https://raw.githubusercontent.com/RahulSinghParmar/zsh-terminal/main/asset/themes/Solarized%20Dark%20theme.itermcolors) (patched version to fix the bright black value)
+- [Solarized Light theme](https://raw.githubusercontent.com/RahulSinghParmar/zsh-terminal/main/asset/themes/Solarized%20Light%20theme.itermcolors)
 - [More themes @ iterm2colorschemes](http://iterm2colorschemes.com/)
 
 Just save it somewhere and open the file(s). The color settings will be imported into iTerm2. Apply them in iTerm through iTerm → preferences → profiles → colors → load presets. You can create a different profile other than `Default` if you wish to do so.
@@ -40,7 +40,7 @@ More info here: <https://github.com/robbyrussell/oh-my-zsh>
 
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-When the installation is done, edit `~/.zshrc` and set `ZSH_THEME="agnoster"` for the default look. Or better yet, go for Powerlevel10k.
+When the installation is done, edit `code ~/.zshrc` and set `ZSH_THEME="agnoster"` for the default look. Or better yet, go for Powerlevel10k.
 
 ## Powerlevel9k / Powerlevel10k
 
@@ -50,9 +50,11 @@ So if you prefer the Powerlevel10k look with added info such as exit codes and t
 
     git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
-Then edit your `~/.zshrc` and set `ZSH_THEME="powerlevel10k/powerlevel10k"`. Once you do so, when you start a new terminal session, the Powerlevel10 configure wizard will be launched to set your prompt, beware, there are many many options!
+Then edit your `code ~/.zshrc` and set `ZSH_THEME="powerlevel10k/powerlevel10k"`. Once you do so, when you start a new terminal session, the Powerlevel10 configure wizard will be launched to set your prompt, beware, there are many many options!
 
 Powerlevel10k offers a whole lot more and is extremely configurable, best is to [check its project page](https://github.com/romkatv/powerlevel10k#extremely-customizable).
+
+### Cofigure the zsh profile
 
 If you want to trigger the configuration wizard immediately, simply run `p10k configure` to discover all options, which are plentiful.
 
@@ -101,11 +103,14 @@ Clone the repository:
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-Activate the plugin in `~/.zshrc`:
+Activate the plugin in `code ~/.zshrc`:
 
     plugins=( [plugins...] zsh-syntax-highlighting)
 
+update and apply the plugins `source ~/.zshrc`
+
 Restart iTerm2 for all changes to take effect.
+shortcut for Mac Comd + Q
 
 ## Visual Studio Code config
 
