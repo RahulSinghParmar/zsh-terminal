@@ -118,6 +118,13 @@ add saved profile in your termiinal
 iterm2 -> setting -> profile -> other action -> import -> [MyProfile](https://github.com/RahulSinghParmar/zsh-terminal/blob/main/asset/profile/Profiles.json)
 Download and add.
 
+### Increase Terminal Font Size
+
+    Open iTerm2 preferences
+    Go to Profiles > Text
+    I increase my font size to about 16px
+
+
 ## Visual Studio Code config
 
 Installing a patched font will mess up the integrated terminal in VS Code unless you use the proper settings. You'll need to go to settings (CMD + ,) and add or edit the following values:
