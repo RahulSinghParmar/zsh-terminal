@@ -1,80 +1,26 @@
 # Tools
 
-### **SPEEDTEST**
+**SPEEDTEST**
 
-Install Speedtest         
+    brew install speedtest-cli
 
-```bash
-brew install speedtest-cli
+**YOUTUBE-DL**
 
-```
+    brew install youtube-dl
 
-Run:                        
+Install ffmpeg:
 
-```bash
-speedtest-cli
-```
+    brew install youtube-dl ffmpeg
 
-### **YOUTUBE-DL**
+Download highest-res vid:
 
-Install youtube-dl:       
+    youtube-dl -f bestvideo+bestaudio ‘link’
 
-```bash
-brew install youtube-dl
-```
+**IMAGEMAGICK**
 
-Install ffmpeg:           
+    brew install imagemagick
 
-```bash
-brew install youtube-dl ffmpeg
-```
+**say**
 
-Download highest-res vid:   
+    say what ever you want to say
 
-```bash
-youtube-dl -f bestvideo+bestaudio ‘link’
-```
-
-Help:                       
-
-```bash
-youtube-dl --help
-```
-
-### **IMAGEMAGICK**
-
-Install ImageMagick:      
-
-```bash
-brew install imagemagick
-```
-
-Add border (sample):        
-
-```bash
-convert testing.png -border 1x1 -bordercolor black result.png
-```
-
-Resize (sample):            
-
-```bash
-convert testing.png -resize 1920 (or x1080) example.png
-```
-
-Add effect (sample):        
-
-```bash
-convert testing.png -charcoal 2 example.png
-```
-
-Change multiple (sample):   
-
-```bash
-for file in *.png; do convert $file -resize 1920 small-$file; done
-```
-
-Help:                       
-
-```bash
-convert help
-```
