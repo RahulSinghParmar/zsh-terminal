@@ -1,5 +1,7 @@
 # How To Setup Your Mac Terminal
 
+> Historical manual guide. For the maintained, architecture-aware backup/restore workflow, use [README.md](README.md) and [the recovery runbook](docs/RESTORE.md). Do not mix these old manual steps with the managed installer.
+
 ## Install Homebrew
 
 Open up a terminal window and install homebrew with the following command:

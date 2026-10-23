@@ -136,3 +136,7 @@ Installing a patched font will mess up the integrated terminal in VS Code unless
 
 You can also set the fontsize e.g.: `"terminal.integrated.fontSize": 14`
 
+# Historical Solarized instructions
+
+> Kept for reference. Current appearance is exported to [iterm2/Profiles.json](iterm2/Profiles.json); use the [managed setup](README.md) rather than importing the old bundled profile over a working configuration.
+

@@ -1,0 +1,4 @@
+# History databases, account sessions, and sync encryption keys stay private.
+# Preserve the current built-in keybindings; sync is an explicit account decision.
+auto_sync = false
+update_check = false
