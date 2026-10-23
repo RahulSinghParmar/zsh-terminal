@@ -1,0 +1,17 @@
+.DS_Store
+local/
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.sqlite*
+*.db
+*.log
+*.tar*
+*.zip
+Brewfile.lock.json

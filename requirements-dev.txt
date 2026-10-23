@@ -1,0 +1,2 @@
+# Development/CI only; restore itself needs no pip packages.
+ruff==0.17.2
